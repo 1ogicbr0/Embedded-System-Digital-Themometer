@@ -9,3 +9,4 @@ We were supposed to read thermistor display reading on thermometer.
   * Resistors
   * 5V battery
   * Push buttons
+> A project file of proteus is also given, you can simulate it using that file
