@@ -1,5 +1,5 @@
 # Embedded-System-Digital-Themometer
-Digital Themometer for measuring Thermistor + using push buttons.
+Digital Themometer for measuring Thermistor + using push buttons.\n
 > An Electrical Engineering Project.
 > We were supposed to read thermistor display reading on thermometer.
 > Components:
