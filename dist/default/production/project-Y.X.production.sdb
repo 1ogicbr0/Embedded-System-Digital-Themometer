@@ -1,0 +1,407 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F882 ]
+[d frameptr 0 ]
+"13 C:\Users\shehr\MPLABXProjects\project-Y.X\ADClib882.c
+[v _ADC_initialise ADC_initialise `(v  1 e 1 0 ]
+"29
+[v _ADC_read ADC_read `(ui  1 e 2 0 ]
+"47
+[v _ADC_channel_select ADC_channel_select `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ltoa.c
+[v _ltoa ltoa `(*.4uc  1 e 1 0 ]
+"32
+[v _ultoa ultoa `(*.4uc  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"42 C:\Users\shehr\MPLABXProjects\project-Y.X\LCDdrive882.c
+[v _LCD_initialise LCD_initialise `(v  1 e 1 0 ]
+"73
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+"135
+[v _LCD_putch LCD_putch `(v  1 e 1 0 ]
+"143
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+"153
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+"178
+[v _LCD_cursor LCD_cursor `(v  1 e 1 0 ]
+"204
+[v _LCD_display_value LCD_display_value `(v  1 e 1 0 ]
+"49 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _main main `(v  1 e 1 0 ]
+"101
+[v _reset reset `(v  1 e 1 0 ]
+"106
+[v _ConvCtoF ConvCtoF `(i  1 e 2 0 ]
+"112
+[v _mv_Right mv_Right `(v  1 e 1 0 ]
+"120
+[v _flip_deg flip_deg `(v  1 e 1 0 ]
+"129
+[v _compareTemp compareTemp `(v  1 e 1 0 ]
+"141
+[v _displaySetup displaySetup `(v  1 e 1 0 ]
+"168
+[v _convrtDegree convrtDegree `(v  1 e 1 0 ]
+"186
+[v _my_ISR my_ISR `II(v  1 e 1 0 ]
+"18 C:\Users\shehr\MPLABXProjects\project-Y.X\ThermistorConv.c
+[v _GetThermistorTemp GetThermistorTemp `(c  1 e 1 0 ]
+"229 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f882.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S178 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S187 . 1 `S178 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES187  1 e 1 @6 ]
+"291
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S364 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"308
+[u S373 . 1 `S364 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES373  1 e 1 @7 ]
+[s S55 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"404
+[s S64 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S69 . 1 `S55 1 . 1 0 `S64 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES69  1 e 1 @11 ]
+"1160
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1167
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S270 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1198
+[s S275 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S284 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S287 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S290 . 1 `S270 1 . 1 0 `S275 1 . 1 0 `S284 1 . 1 0 `S287 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES290  1 e 1 @31 ]
+[s S29 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1288
+[s S36 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S40 . 1 `S29 1 . 1 0 `S36 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES40  1 e 1 @129 ]
+"1400
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1462
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S87 . 1 `uc 1 IOCB 1 0 :8:0 
+]
+"2279
+[s S89 . 1 `uc 1 IOCB0 1 0 :1:0 
+`uc 1 IOCB1 1 0 :1:1 
+`uc 1 IOCB2 1 0 :1:2 
+`uc 1 IOCB3 1 0 :1:3 
+`uc 1 IOCB4 1 0 :1:4 
+`uc 1 IOCB5 1 0 :1:5 
+`uc 1 IOCB6 1 0 :1:6 
+`uc 1 IOCB7 1 0 :1:7 
+]
+[u S98 . 1 `S87 1 . 1 0 `S89 1 . 1 0 ]
+[v _IOCBbits IOCBbits `VES98  1 e 1 @150 ]
+"2813
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2820
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3230
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3274
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3716
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"4211
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"4214
+[v _TRISB1 TRISB1 `VEb  1 e 0 @1073 ]
+"38 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _Degree Degree `uc  1 e 1 0 ]
+"39
+[v _temp temp `i  1 e 2 0 ]
+"40
+[v _tempMin tempMin `i  1 e 2 0 ]
+"41
+[v _tempMax tempMax `i  1 e 2 0 ]
+"42
+[v _count_Interrupt count_Interrupt `i  1 e 2 0 ]
+"43
+[v _myString1 myString1 `DC[6]uc  1 e 6 0 ]
+"44
+[v _myString2 myString2 `DC[5]uc  1 e 5 0 ]
+"45
+[v _myString3 myString3 `DC[5]uc  1 e 5 0 ]
+"10 C:\Users\shehr\MPLABXProjects\project-Y.X\ThermistorConv.c
+[v _ThermValueLUT ThermValueLUT `DC[121]ui  1 e 242 0 ]
+"11
+[v _TempLUT TempLUT `DC[121]c  1 e 121 0 ]
+"49 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _main main `(v  1 e 1 0 ]
+{
+"75
+[v main@refresh refresh `i  1 a 2 49 ]
+"99
+} 0
+"141
+[v _displaySetup displaySetup `(v  1 e 1 0 ]
+{
+"166
+} 0
+"112
+[v _mv_Right mv_Right `(v  1 e 1 0 ]
+{
+[v mv_Right@a a `i  1 p 2 7 ]
+"119
+} 0
+"178 C:\Users\shehr\MPLABXProjects\project-Y.X\LCDdrive882.c
+[v _LCD_cursor LCD_cursor `(v  1 e 1 0 ]
+{
+[v LCD_cursor@x x `uc  1 a 1 wreg ]
+[v LCD_cursor@x x `uc  1 a 1 wreg ]
+[v LCD_cursor@y y `uc  1 p 1 5 ]
+"180
+[v LCD_cursor@x x `uc  1 a 1 7 ]
+"192
+} 0
+"204
+[v _LCD_display_value LCD_display_value `(v  1 e 1 0 ]
+{
+"206
+[v LCD_display_value@buffer buffer `[12]uc  1 a 12 35 ]
+"204
+[v LCD_display_value@value value `l  1 p 4 31 ]
+"210
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ltoa.c
+[v _ltoa ltoa `(*.4uc  1 e 1 0 ]
+{
+[v ltoa@buf buf `*.4uc  1 a 1 wreg ]
+[v ltoa@buf buf `*.4uc  1 a 1 wreg ]
+[v ltoa@val val `l  1 p 4 25 ]
+[v ltoa@base base `i  1 p 2 29 ]
+[v ltoa@buf buf `*.4uc  1 a 1 7 ]
+"22
+} 0
+"32
+[v _ultoa ultoa `(*.4uc  1 e 1 0 ]
+{
+[v ultoa@buf buf `*.4uc  1 a 1 wreg ]
+"35
+[v ultoa@v v `ul  1 a 4 19 ]
+"36
+[v ultoa@c c `uc  1 a 1 23 ]
+"32
+[v ultoa@buf buf `*.4uc  1 a 1 wreg ]
+[v ultoa@val val `ul  1 p 4 13 ]
+[v ultoa@base base `i  1 p 2 17 ]
+"38
+[v ultoa@buf buf `*.4uc  1 a 1 24 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"153 C:\Users\shehr\MPLABXProjects\project-Y.X\LCDdrive882.c
+[v _LCD_puts LCD_puts `(v  1 e 1 0 ]
+{
+"155
+[v LCD_puts@c c `uc  1 a 1 11 ]
+"156
+[v LCD_puts@i i `uc  1 a 1 10 ]
+"153
+[v LCD_puts@s s `*.26uc  1 p 2 7 ]
+"163
+} 0
+"135
+[v _LCD_putch LCD_putch `(v  1 e 1 0 ]
+{
+[v LCD_putch@c c `uc  1 a 1 wreg ]
+"137
+[v LCD_putch@counter counter `ui  1 a 2 6 ]
+"135
+[v LCD_putch@c c `uc  1 a 1 wreg ]
+"138
+[v LCD_putch@c c `uc  1 a 1 5 ]
+"140
+} 0
+"47 C:\Users\shehr\MPLABXProjects\project-Y.X\ADClib882.c
+[v _ADC_channel_select ADC_channel_select `(v  1 e 1 0 ]
+{
+[v ADC_channel_select@channel channel `uc  1 a 1 wreg ]
+[v ADC_channel_select@channel channel `uc  1 a 1 wreg ]
+"49
+[v ADC_channel_select@channel channel `uc  1 a 1 4 ]
+"50
+} 0
+"168 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _convrtDegree convrtDegree `(v  1 e 1 0 ]
+{
+"170
+[v convrtDegree@tempCheck tempCheck `i  1 a 2 5 ]
+"183
+} 0
+"18 C:\Users\shehr\MPLABXProjects\project-Y.X\ThermistorConv.c
+[v _GetThermistorTemp GetThermistorTemp `(c  1 e 1 0 ]
+{
+"20
+[v GetThermistorTemp@i i `uc  1 a 1 7 ]
+"18
+[v GetThermistorTemp@ADCValue ADCValue `ui  1 p 2 0 ]
+"28
+} 0
+"106 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _ConvCtoF ConvCtoF `(i  1 e 2 0 ]
+{
+"108
+[v ConvCtoF@tempF tempF `i  1 a 2 0 ]
+"106
+[v ConvCtoF@tempC tempC `i  1 p 2 3 ]
+"110
+} 0
+"29 C:\Users\shehr\MPLABXProjects\project-Y.X\ADClib882.c
+[v _ADC_read ADC_read `(ui  1 e 2 0 ]
+{
+"31
+[v ADC_read@result result `ui  1 a 2 5 ]
+"39
+} 0
+"129 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _compareTemp compareTemp `(v  1 e 1 0 ]
+{
+"139
+} 0
+"42 C:\Users\shehr\MPLABXProjects\project-Y.X\LCDdrive882.c
+[v _LCD_initialise LCD_initialise `(v  1 e 1 0 ]
+{
+"44
+[v LCD_initialise@counter counter `ui  1 a 2 7 ]
+"66
+} 0
+"143
+[v _LCD_clear LCD_clear `(v  1 e 1 0 ]
+{
+"145
+[v LCD_clear@counter counter `ui  1 a 2 5 ]
+"150
+} 0
+"73
+[v _LCD_write LCD_write `(v  1 e 1 0 ]
+{
+[v LCD_write@c c `uc  1 a 1 wreg ]
+"80
+[v LCD_write@counter counter `ui  1 a 2 5 ]
+"76
+[v LCD_write@RSmask RSmask `uc  1 a 1 4 ]
+"77
+[v LCD_write@TRISC_BAK TRISC_BAK `uc  1 a 1 2 ]
+"75
+[v LCD_write@intsON intsON `uc  1 a 1 1 ]
+[v LCD_write@temp temp `uc  1 a 1 0 ]
+"73
+[v LCD_write@c c `uc  1 a 1 wreg ]
+[v LCD_write@rs rs `uc  1 p 1 3 ]
+"76
+[v LCD_write@c c `uc  1 a 1 3 ]
+"130
+} 0
+"13 C:\Users\shehr\MPLABXProjects\project-Y.X\ADClib882.c
+[v _ADC_initialise ADC_initialise `(v  1 e 1 0 ]
+{
+"20
+} 0
+"186 C:\Users\shehr\MPLABXProjects\project-Y.X\projY.c
+[v _my_ISR my_ISR `II(v  1 e 1 0 ]
+{
+"203
+} 0
+"101
+[v _reset reset `(v  1 e 1 0 ]
+{
+"105
+} 0
+"120
+[v _flip_deg flip_deg `(v  1 e 1 0 ]
+{
+"128
+} 0
